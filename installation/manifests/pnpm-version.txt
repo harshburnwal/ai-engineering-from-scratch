@@ -1,0 +1,1 @@
+12.15.0 (project-local npm package plus verified pnpm Windows binary)

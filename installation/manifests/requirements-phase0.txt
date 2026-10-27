@@ -1,0 +1,5 @@
+# Minimal Python stack installed for Phase 0 Lessons 1 and 5.
+# Install with: uv pip install --python .venv\Scripts\python.exe -r installation\manifests\requirements-phase0.txt
+numpy==2.5.4
+matplotlib==3.11.2
+jupyter==1.1.1

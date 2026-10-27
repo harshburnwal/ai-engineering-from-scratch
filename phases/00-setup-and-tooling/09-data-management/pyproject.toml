@@ -1,0 +1,12 @@
+[project]
+name = "phase0-data-management"
+version = "0.1.0"
+description = "Isolated Python dependencies for Phase 0 Lesson 09"
+requires-python = ">=3.11"
+dependencies = [
+    "datasets",
+    "huggingface-hub",
+]
+
+[tool.uv]
+package = false

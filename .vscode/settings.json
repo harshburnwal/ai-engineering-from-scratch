@@ -1,0 +1,50 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
+  "python.terminal.activateEnvironment": true,
+  "python.analysis.typeCheckingMode": "basic",
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.inlayHints.functionReturnTypes": true,
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": false,
+  "jupyter.notebookFileRoot": "${workspaceFolder}",
+  "notebook.output.scrolling": true,
+  "notebook.output.textLineLimit": 500,
+  "notebook.cellToolbarLocation": "right",
+  "editor.formatOnSave": true,
+  "editor.rulers": [88, 120],
+  "editor.tabSize": 4,
+  "editor.insertSpaces": true,
+  "editor.renderWhitespace": "trailing",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.minimap.enabled": false,
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.scrollback": 10000,
+  "terminal.integrated.fontSize": 13,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    }
+  },
+  "black-formatter.args": ["--line-length", "88"],
+  "ruff.lint.run": "onSave",
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/.ipynb_checkpoints": true,
+    "**/node_modules": true,
+    "**/.venv": true,
+    "**/models": true,
+    "**/checkpoints": true
+  },
+  "search.exclude": {
+    "**/.venv": true,
+    "**/node_modules": true,
+    "**/models": true,
+    "**/checkpoints": true
+  }
+}

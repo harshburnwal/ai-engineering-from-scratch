@@ -1448,3 +1448,7 @@ Maintained by [Rohit Ghumare](https://github.com/rohitg00) and the community.
   <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp;
   <a href="https://github.com/rohitg00/ai-engineering-from-scratch/issues/new/choose">Report / Suggest</a>
 </sub>
+
+## Local Windows learning setup
+
+Use [learning-hub/](learning-hub/README.md) for Phase 0 progress, environment notes and PowerShell commands. Project-local setup scripts and manifests are in [installation/](installation/README.md).

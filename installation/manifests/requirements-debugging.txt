@@ -1,0 +1,4 @@
+# Phase 0 Lesson 12. Install into the course .venv, which already contains PyTorch.
+line-profiler
+memory-profiler
+tensorboard

@@ -137,3 +137,18 @@ site/manuals.html
 .project-validation/
 projects/*/solution/output/
 projects/*/solution/demo-output/
+
+# Local environment secrets, but keep the blank template
+.env.*
+!.env.example
+
+# Keep workspace editor defaults and extension recommendations under version control
+!.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# Portable runtimes, tool payloads, downloads and local logs are reproducible artifacts
+installation/downloads/*
+installation/logs/*
+installation/portable/*
